@@ -2,7 +2,9 @@ body {
     font: 1.2em / 1.5 sans-serif;
 }
 
-h1 {
+/* Task 1 */
+
+/* h1 {
     color: blue;
 }
 
@@ -14,4 +16,22 @@ h2 {
 
 span {
     font-size: 200%;
+} */
+
+/* Task 2 */
+
+#special {
+    background-color: yellow;
+}
+
+.alert {
+    border: 2px solid grey;
+}
+
+.alert.stop {
+    background-color: red;
+}
+
+.alert.go {
+    background-color: green;
 }
