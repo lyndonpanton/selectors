@@ -37,7 +37,8 @@ span {
 } */
 
 /* Task 3 *********************************************************************/
-a:link {
+
+/* a:link {
     color: orange;
 }
 
@@ -61,4 +62,17 @@ table tr:nth-child(2n) {
     background-color: #333;
     
     color: white;
+} */
+
+/* Task 4 *********************************************************************/
+h2 + p {
+    color: red;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul.list > li {
+    border-bottom: 1px solid grey;
 }
