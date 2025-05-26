@@ -2,7 +2,7 @@ body {
     font: 1.2em / 1.5 sans-serif;
 }
 
-/* Task 1 */
+/* Task 1 *********************************************************************/
 
 /* h1 {
     color: blue;
@@ -18,9 +18,9 @@ span {
     font-size: 200%;
 } */
 
-/* Task 2 */
+/* Task 2 *********************************************************************/
 
-#special {
+/* #special {
     background-color: yellow;
 }
 
@@ -34,4 +34,31 @@ span {
 
 .alert.go {
     background-color: green;
+} */
+
+/* Task 3 *********************************************************************/
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container > :first-child {
+    font-size: 150%;
+}
+
+.container > :first-child:first-line {
+    color: red;
+}
+
+table tr:nth-child(2n) {
+    background-color: #333;
+    
+    color: white;
 }
